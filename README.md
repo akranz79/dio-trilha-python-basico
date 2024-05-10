@@ -3,14 +3,16 @@
 
 #### Já dominamos o universo do desenvolvimento Python e projeto "Criando um Sistema Bancário com Python" oferece uma experiência prática de desenvolvimento de software financeiro. Os participantes construirão um sistema completo, abordando funcionalidades como criação de contas, transações e segurança. É uma oportunidade para aprimorar habilidades de programação Python e compreender conceitos financeiros e de segurança.
 
-### O código desenvolvido implementa um sistema simples de gerenciamento de contas bancárias, com as seguintes funcionalidades:
+### 1º - O código desenvolvido implementa um sistema simples de gerenciamento de contas bancárias, com as seguintes funcionalidades: 
+### 👉 [desafio 1](https://github.com/akranz79/dio-trilha-python-basico/blob/main/desafio.py)
 
 - Depósito: Permite ao usuário depositar um valor em sua conta.
 - Saque: Permite ao usuário sacar um valor de sua conta, desde que não exceda o saldo disponível, o limite de saques ou o limite de saldo.
 - Extrato: Mostra ao usuário um extrato das transações realizadas em sua conta, incluindo depósitos e saques, além do saldo atual.
 - Sair: Permite ao usuário sair do programa.
 
-### Atualizações do código:
+### 2º - Atualizações do código:
+### 👉 [desafio 2](https://github.com/akranz79/dio-trilha-python-basico/blob/main/desafio02.py)
 
 Vamos analisar o código e suas funcionalidades:
 
@@ -20,6 +22,7 @@ Vamos analisar o código e suas funcionalidades:
 - Para cada opção do menu, ele executa uma série de verificações e operações.
 
 ### Atualizações Referentes ao Primeiro Desafio:
+
 - As funcionalidades de depósito, saque e visualização de extrato foram separadas em funções: depositar, sacar e extrato.
 - Para cada uma dessas funções, foram estabelecidos os modos de passagem de argumentos conforme solicitado: <br>
 #### depositar: Recebe os argumentos apenas por posição. <br>
@@ -30,6 +33,16 @@ cadastrar_usuario: Permite cadastrar usuários com nome, data de nascimento, CPF
 criar_conta_corrente: Cria contas correntes com agência fixa ("0001"), número sequencial e vincula a um usuário existente. <br>
 
 Essas atualizações deixam o código mais organizado, modularizado e mais fácil de entender. Agora ele segue o princípio do "single responsibility", onde cada função executa uma única tarefa específica.
+
+### 3º - Atualizações Referentes ao desafio POO: 
+
+### 👉 [desafio 1](https://github.com/akranz79/dio-trilha-python-basico/blob/main/desafio03.py)
+### 👉 [desafio 2](https://github.com/akranz79/dio-trilha-python-basico/blob/main/desafio03p2.py)
+
+Neste desafio iremos atualizar a implementação do sistema bancário, para armazenar os dados de clientes e contas bancárias em objetos ao invés de dicionários. O código deve seguir o modelo de classes UML. <br>
+
+Python
+
 
 ---
 <br />
