@@ -1,4 +1,4 @@
-### Entendendo o Desafio 🚀✨
+## Entendendo o Desafio 🚀✨
 #### Agora é a sua hora de brilhar e construir um perfil de destaque na DIO! Explore todos os conceitos explorados até aqui e replique (ou melhore, porque não?) este projeto prático. Para isso, crie seu próprio repositório e aumente ainda mais seu portfólio de projetos no GitHub, o qual pode fazer toda diferença em suas entrevistas técnicas 😎
 
 #### Já dominamos o universo do desenvolvimento Python e projeto "Criando um Sistema Bancário com Python" oferece uma experiência prática de desenvolvimento de software financeiro. Os participantes construirão um sistema completo, abordando funcionalidades como criação de contas, transações e segurança. É uma oportunidade para aprimorar habilidades de programação Python e compreender conceitos financeiros e de segurança.
@@ -10,13 +10,26 @@
 - Extrato: Mostra ao usuário um extrato das transações realizadas em sua conta, incluindo depósitos e saques, além do saldo atual.
 - Sair: Permite ao usuário sair do programa.
 
-### Sugestões de atualizações:
+### Atualizações do código:
 
-#### Validação de Entrada: Adicione validação de entrada para garantir que o usuário insira valores válidos ao depositar ou sacar.
-- Melhorar a Experiência do Usuário: Adicione mensagens mais descritivas para orientar o usuário durante as operações.
-- Adicionar Funcionalidades: Considere adicionar funcionalidades adicionais, como transferências entre contas ou alteração de limite.
-- Implementar Classes: Refatore o código para usar classes e métodos, tornando-o mais orientado a objetos e mais fácil de entender e manter.
-- Tratamento de Erros: Adicione tratamento de erros robusto para lidar com cenários inesperados, como entradas inválidas ou erros de cálculo.
+Vamos analisar o código e suas funcionalidades:
+
+### Funcionalidades do Código Anterior:
+- O código permite ao usuário realizar operações básicas em uma conta bancária, como depósito, saque e visualização de extrato.
+- Ele possui um loop while que continua executando até que o usuário selecione a opção "Sair".
+- Para cada opção do menu, ele executa uma série de verificações e operações.
+
+### Atualizações Referentes ao Primeiro Desafio:
+- As funcionalidades de depósito, saque e visualização de extrato foram separadas em funções: depositar, sacar e extrato.
+- Para cada uma dessas funções, foram estabelecidos os modos de passagem de argumentos conforme solicitado: <br>
+#### depositar: Recebe os argumentos apenas por posição. <br>
+#### sacar: Recebe os argumentos apenas por nome (keyword only). <br>
+#### extrato: Recebe os argumentos por posição e nome (positional only e keyword only). <br>
+- Além disso, duas novas funções foram adicionadas:
+cadastrar_usuario: Permite cadastrar usuários com nome, data de nascimento, CPF e endereço, garantindo que não haja CPFs duplicados. <br>
+criar_conta_corrente: Cria contas correntes com agência fixa ("0001"), número sequencial e vincula a um usuário existente. <br>
+
+Essas atualizações deixam o código mais organizado, modularizado e mais fácil de entender. Agora ele segue o princípio do "single responsibility", onde cada função executa uma única tarefa específica.
 
 ---
 <br />
